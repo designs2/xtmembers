@@ -1,0 +1,40 @@
+{
+  "name": "designs2/xtmembers",
+  "description": "Contao xtmembers",
+  "keywords": [
+    "contao",
+    "xtmembers"
+  ],
+  "type": "contao-module",
+  "homepage": "http://designs2.de",
+  "license": "LGPL-3.0+",
+  "authors": [
+    {
+      "name": "Helmut Schottmüller: touchbyte GmbH",
+      "role": "Developer"
+    },
+     {
+      "name": "Monique Hahnefeld",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "info@designs2.de",
+    "issues": "https://github.com/designs2/xtmembers/issues",
+    "source": "https://github.com/designs2/xtmembers"
+  },
+  "require": {
+    "php": ">=5.4",
+    "contao/core": ">3.4.4,<4.0",
+    "contao-community-alliance/composer-plugin": "~2.0"
+  },
+  "extra": {
+    "contao": {
+      "sources": {
+        "contao": "system/modules/xtmembers"
+      }
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
