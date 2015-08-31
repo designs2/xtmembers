@@ -59,4 +59,8 @@ $GLOBALS['TL_HOOKS']['outputFrontendTemplate'][] = array('TinyMCEPatcher', 'outp
 $urlparameter = (strlen($GLOBALS['TL_CONFIG']['memberurlparameter'])) ? $GLOBALS['TL_CONFIG']['memberurlparameter'] : 'member';
 $GLOBALS['TL_CONFIG']['urlKeywords'] .= (strlen(trim($GLOBALS['TL_CONFIG']['urlKeywords'])) ? ',' : '') . $urlparameter . ",activepage";
 
+//add Widget to contao formular generator
+$GLOBALS['TL_FFL']['agreement'] = 'FormAgreement';
+
+
 ?>
